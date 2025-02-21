@@ -1,0 +1,41 @@
+---
+title: "News"
+---
+
+# Progress is the attraction that moves humanity {style="color: darkgreen"}
+
+\~Marcus Garvey
+
+### February 7, 2025 {style="color: black"}
+
+#### **Goals Achieved:** {style="color: black"}
+
+-   Installation Issues resolved utilizing Codespaces with brcharts(1)
+
+-   Proposed goals and objectives for brcharts
+
+-   Issue template implementation
+
+#### **Action Items:** {style="color: black"}
+
+-   Revising goals and objectives
+
+-   Renaming strategy to advance static charts work
+
+------------------------------------------------------------------------
+
+### January 24, 2025 {style="color: black"}
+
+#### **Goals Achieved:** {style="color: black"}
+
+-   Discuss Benefit-Risk working groups
+
+-   Propose ideas for building static charts repo
+
+#### **Action Items:** {style="color: black"}
+
+-   Draft aims and objectives for brcharts
+
+-   Investigate installation issues for brcharts(1)
+
+-   Investigate template for Chart GitHub issue
