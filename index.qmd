@@ -15,3 +15,7 @@ To advance structured Benefit-Risk Assessment (sBRA) by developing and promoting
 | Develop and implement user-centric visualization techniques that transform complex sBRA data into accessible, actionable insights for efficient decision-making. |
 | Standardize best practices for visual analytics in benefit-risk evaluation to ensure consistency and reliability.                                                |
 | Promote the adoption of visual analytics tools across regulatory bodies, industry professionals, and stakeholder.                                                |
+
+### Contributing
+
+We encourage contributions and recommendations to Benefit Risk Decision Enhanced Visualizations. Please refer to the Contributions guide for more information on how you can contribute.

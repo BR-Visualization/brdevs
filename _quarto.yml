@@ -16,20 +16,24 @@ website:
     right:
         - href: index.qmd
           text: "Home"
-        - text: "About Us"
-          href: aboutus.qmd
-        - text: "News"
-          href: news.qmd
         - text: "Visualizations"
           menu:
             - text: "Value Tree"
               href: visualizations/Value_Tree.qmd
+            - text: "Correlogram"
+              href: visualizations/correlogram.qmd
+        - text: "News"
+          href: news.qmd
+        - text: "About Us"
+          href: aboutus.qmd
+
   sidebar:
     - id: logo
       style: docked
       collapse-level: 1
       logo: images/brlogo.png
       border: false
+
 
 format:
   html:
