@@ -245,7 +245,7 @@ create_correlogram(corr)
 
 ## Description
 
-**How to read**
+**How to read:**
 
 -   Both the benefit and risk outcomes appear on the X-axis and Y-axis.
 
@@ -267,5 +267,7 @@ create_correlogram(corr)
 
 -   There is also an explainable negative correlation between outcomes for quality-of-life and recurring AE. The medium positive correlation between recurring AE and primary efficacy is difficult to explain.
 
-**Data:** If you would like to view the data for this visualization, please click [here](../docs/visualizations/data_viz/corr.html).
+**Data:** 
+
+-   If you would like to view or download the data for this visualization, please click [here](./data_viz/corr.qmd).
 :::

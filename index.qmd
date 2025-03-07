@@ -2,7 +2,7 @@
 title: ""
 ---
 
-# **Welcome to the Br-visualization Working Group Site**
+# **Welcome to the BR-Decision Enhanced Visualizations Site**
 
 ### Primary Goal
 
@@ -18,4 +18,4 @@ To advance structured Benefit-Risk Assessment (sBRA) by developing and promoting
 
 ### Contributing
 
-We encourage contributions and recommendations to Benefit Risk Decision Enhanced Visualizations. Please refer to the Contributions guide for more information on how you can contribute.
+We encourage contributions and recommendations to Benefit Risk Decision Enhanced Visualizations. Please refer to the [Contributions guide](CONTRIBUTIONS.qmd) for more information on how you can contribute.
