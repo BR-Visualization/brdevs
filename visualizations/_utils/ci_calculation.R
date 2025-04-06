@@ -1,4 +1,3 @@
-```{r}
 #' CI for absolute risk for binary outcomes
 #'
 #' Derive mean difference and associated confidence intervals
@@ -298,4 +297,3 @@ calculate_diff_rates <- function(rate1, rate2, py1, py2, cl = 0.95) {
   # Returning the df object
   df
 }
-```
