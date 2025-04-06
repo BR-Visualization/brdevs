@@ -44,8 +44,7 @@ title: Correlogram
 #'
 #' @examples
 #' create_correlogram(corr)
-#' 
-
+#'
 library(ggcorrplot)
 library(stringr)
 source("_utils/utils.R")
