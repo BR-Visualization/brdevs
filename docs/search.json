@@ -208,5 +208,82 @@
     "title": "brdevs",
     "section": "",
     "text": "library(brdevs)\n#&gt; Loading required package: tidyverse\n#&gt; ── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n#&gt; ✔ dplyr     1.1.4     ✔ readr     2.1.5\n#&gt; ✔ forcats   1.0.0     ✔ stringr   1.5.1\n#&gt; ✔ ggplot2   3.5.1     ✔ tibble    3.2.1\n#&gt; ✔ lubridate 1.9.4     ✔ tidyr     1.3.1\n#&gt; ✔ purrr     1.0.4     \n#&gt; ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n#&gt; ✖ dplyr::filter() masks stats::filter()\n#&gt; ✖ dplyr::lag()    masks stats::lag()\n#&gt; ℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors"
+  },
+  {
+    "objectID": "web_utils/aboutus.html",
+    "href": "web_utils/aboutus.html",
+    "title": "About Us",
+    "section": "",
+    "text": "add mini-bio here\n\n\n\nadd mini-bio here\n\n\n\nadd mini-bio here\n\n\n\nadd mini-bio here\n\n\n\nadd mini-bio here\n\n\n\nadd mini-bio here\n\n\n\nadd mini-bio here\n\n\n\nadd mini-bio here"
+  },
+  {
+    "objectID": "web_utils/aboutus.html#chen-chen",
+    "href": "web_utils/aboutus.html#chen-chen",
+    "title": "About Us",
+    "section": "",
+    "text": "add mini-bio here"
+  },
+  {
+    "objectID": "web_utils/aboutus.html#mike-colopy",
+    "href": "web_utils/aboutus.html#mike-colopy",
+    "title": "About Us",
+    "section": "",
+    "text": "add mini-bio here"
+  },
+  {
+    "objectID": "web_utils/aboutus.html#glen-colopy",
+    "href": "web_utils/aboutus.html#glen-colopy",
+    "title": "About Us",
+    "section": "",
+    "text": "add mini-bio here"
+  },
+  {
+    "objectID": "web_utils/aboutus.html#abigail-mabe",
+    "href": "web_utils/aboutus.html#abigail-mabe",
+    "title": "About Us",
+    "section": "",
+    "text": "add mini-bio here"
+  },
+  {
+    "objectID": "web_utils/aboutus.html#lovemore-gakava",
+    "href": "web_utils/aboutus.html#lovemore-gakava",
+    "title": "About Us",
+    "section": "",
+    "text": "add mini-bio here"
+  },
+  {
+    "objectID": "web_utils/aboutus.html#melvin-munsaka",
+    "href": "web_utils/aboutus.html#melvin-munsaka",
+    "title": "About Us",
+    "section": "",
+    "text": "add mini-bio here"
+  },
+  {
+    "objectID": "web_utils/aboutus.html#xiao-ni",
+    "href": "web_utils/aboutus.html#xiao-ni",
+    "title": "About Us",
+    "section": "",
+    "text": "add mini-bio here"
+  },
+  {
+    "objectID": "web_utils/aboutus.html#brian-waterhouse",
+    "href": "web_utils/aboutus.html#brian-waterhouse",
+    "title": "About Us",
+    "section": "",
+    "text": "add mini-bio here"
+  },
+  {
+    "objectID": "web_utils/news.html",
+    "href": "web_utils/news.html",
+    "title": "News",
+    "section": "",
+    "text": "Progress is the attraction that moves humanity\n~Marcus Garvey\n\nFebruary, 2025\n\nGoals Achieved:\n\nInstallation Issues resolved utilizing Codespaces with brcharts(1)\nProposed goals and objectives for brcharts\nIssue template implementation\n\n\n\nAction Items:\n\nRevising goals and objectives\nRenaming strategy to advance static charts work\n\n\n\n\n\nJanuary, 2025\n\nGoals Achieved:\n\nDiscuss Benefit-Risk working groups\nPropose ideas for building static charts repo\n\n\n\nAction Items:\n\nDraft aims and objectives for brcharts\nInvestigate installation issues for brcharts(1)\nInvestigate template for Chart GitHub issue"
+  },
+  {
+    "objectID": "web_utils/index.html",
+    "href": "web_utils/index.html",
+    "title": "Welcome to the BR-Decision Enhanced Visualizations Site",
+    "section": "",
+    "text": "Welcome to the BR-Decision Enhanced Visualizations Site\n\nPrimary Goal\nTo advance structured Benefit-Risk Assessment (sBRA) by developing and promoting innovative visual analytics tools that enhance understanding, communication, and decision-making of benefit-risk assessment in the pharmaceutical and medical device industries.\n\n\nKey Objectives\n\n\n\n\n\n\nDevelop and implement user-centric visualization techniques that transform complex sBRA data into accessible, actionable insights for efficient decision-making.\n\n\nStandardize best practices for visual analytics in benefit-risk evaluation to ensure consistency and reliability.\n\n\nPromote the adoption of visual analytics tools across regulatory bodies, industry professionals, and stakeholder.\n\n\n\n\n\nContributing\nWe encourage contributions and recommendations to Benefit Risk Decision Enhanced Visualizations. Please refer to the Contributions guide for more information on how you can contribute."
   }
 ]

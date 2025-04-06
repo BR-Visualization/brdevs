@@ -14,7 +14,7 @@ website:
     background: primary
     search: true
     right:
-        - href: index.qmd
+        - href: web_utils/index.qmd
           text: "Home"
         - text: "Visualizations"
           menu:
@@ -23,9 +23,9 @@ website:
             - text: "Correlogram"
               href: visualizations/correlogram.qmd
         - text: "News"
-          href: news.qmd
+          href: web_utils/news.qmd
         - text: "About Us"
-          href: aboutus.qmd
+          href: web_utils/aboutus.qmd
 
   sidebar:
     - id: logo
