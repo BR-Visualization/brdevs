@@ -1,0 +1,67 @@
+---
+title: "News"
+---
+
+# Progress is the attraction that moves humanity {style="color: darkgreen"}
+
+\~Marcus Garvey
+
+------------------------------------------------------------------------
+
+[If you would like to stay updated with details of our package development, please visit our <a href="NEWS.md">News</a> page.]{style="color: black"}
+
+------------------------------------------------------------------------
+
+### March, 2025 {style="color: black"}
+
+#### **Goals Achieved:** {style="color: black"}
+
+-   Create new repository for proposed manuscript (brpubVJCE)
+
+-   Wonderful Wednesday presentation and visualization discussion
+
+-   Create new repository for static charts site (brdevs)
+
+-   Large team meeting to discuss contribution guidelines, proposed visualizations, and next steps
+
+#### **Action Items:** {style="color: black"}
+
+-   Begin working on enhancements for proposed manuscript
+
+-   Continue brpubVJCE and brdevs set-up
+
+------------------------------------------------------------------------
+
+### February, 2025 {style="color: black"}
+
+#### **Goals Achieved:** {style="color: black"}
+
+-   Installation Issues resolved utilizing Codespaces with brcharts(1)
+
+-   Proposed goals and objectives for brcharts
+
+-   Issue template implementation
+
+#### **Action Items:** {style="color: black"}
+
+-   Revising goals and objectives
+
+-   Renaming strategy to advance static charts work
+
+------------------------------------------------------------------------
+
+### January, 2025 {style="color: black"}
+
+#### **Goals Achieved:** {style="color: black"}
+
+-   Discuss Benefit-Risk working groups
+
+-   Propose ideas for building static charts repo
+
+#### **Action Items:** {style="color: black"}
+
+-   Draft aims and objectives for brcharts
+
+-   Investigate installation issues for brcharts(1)
+
+-   Investigate template for Chart GitHub issue

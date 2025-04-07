@@ -1,0 +1,43 @@
+---
+title: "About Us"
+---
+
+::: columns
+::: {.column width="70%"}
+## Lovemore Gakava, Team Lead
+
+add mini-bio here
+
+## Chen Chen
+
+**Chen Chen, PhD** is a safety statistician at UCB, where she provides statistical support on product-level safety analysis planning and reporting. She has more than 7 years of experience working in the pharmaceutical industry across various therapeutic areas. Her research interest lies in the areas of quantitative methods and visualizations for safety signal detection and benefit-risk assessment.
+
+## Glen Colopy
+
+add mini-bio here
+
+## Mike Colopy
+
+add mini-bio here
+
+## Abigail Mabe
+
+add mini-bio here
+
+## Melvin Munsaka
+
+add mini-bio here
+
+## Xiao Ni
+
+add mini-bio here
+
+## Brian Waterhouse
+
+add mini-bio here
+:::
+
+::: {.column width="30%"}
+<img src="../images/lg_headshot.png" width="120px" height="120px" style="border-radius: 70%; object-fit: cover; object-position: 50% 50%; margin-left: 20px; margin-top: 0px; border: 3px solid #333; margin-bottom: 30px; display: block;"/> <img src="../images/chen_headshot.jpg" width="120px" height="120px" style="border-radius: 70%; object-fit: cover; object-position: 50% 50%; margin-left: 20px; margin-top: -15px; border: 3px solid #333; margin-bottom: 100px; display: block;"/> <img src="../images/mike_headshot.jpg" width="120px" height="120px" style="border-radius: 70%; object-fit: cover; object-position: 50% 24%; margin-left: 20px; margin-top: -15px; border: 3px solid #333; margin-bottom: 30px; display: block;"/> <img src="../images/glen_headshot.jpg" width="120px" height="120px" style="border-radius: 70%; object-fit: cover; object-position: 50% 24%; margin-left: 20px; margin-top: -15px; border: 3px solid #333; margin-bottom: 30px; display: block;"/> <img src="../images/abigail_headshot.jpg" width="120px" height="120px" style="border-radius: 70%; object-fit: cover; object-position: 50% 32%; margin-left: 20px; margin-top: -15px; border: 3px solid #333; margin-bottom: 30px; display: block;"/>
+:::
+:::
