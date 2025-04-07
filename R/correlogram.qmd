@@ -47,7 +47,7 @@ title: Correlogram
 #'
 library(ggcorrplot)
 library(stringr)
-source("_utils/utils.R")
+source("utils.R")
 
 create_correlogram <- function(df,
                                diagonal = FALSE,
@@ -233,11 +233,14 @@ create_correlogram <- function(df,
 
 ::: panel-tabset
 ## Standard Visualization
+
 ```{r, echo = FALSE, warning=FALSE}
 load("../data/corr.rda")
 create_correlogram(corr)
 ```
+
 ## Sample Code
+
 ```{r, eval = FALSE}
 create_correlogram(corr)
 ```
@@ -265,5 +268,4 @@ create_correlogram(corr)
 -   As expected, there is a high correlation between the primary and secondary efficacy outcomes. The team might decide to drop the secondary efficacy outcome if there is a concern with double counting.
 
 -   There is also an explainable negative correlation between outcomes for quality-of-life and recurring AE. The medium positive correlation between recurring AE and primary efficacy is difficult to explain.
-
 :::

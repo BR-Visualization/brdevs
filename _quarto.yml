@@ -19,9 +19,9 @@ website:
         - text: "Visualizations"
           menu:
             - text: "Value Tree"
-              href: visualizations/Value_Tree.qmd
+              href: R/Value_Tree.qmd
             - text: "Correlogram"
-              href: visualizations/correlogram.qmd
+              href: R/correlogram.qmd
         - text: "News"
           href: web_utils/news.qmd
         - text: "About Us"

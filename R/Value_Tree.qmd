@@ -30,6 +30,7 @@ value_tree <- function(diagram, ...) {
 
 ::: panel-tabset
 ## Standard Visualization
+
 ```{r, echo = FALSE}
 value_tree(
   diagram =
@@ -135,5 +136,4 @@ value_tree(
 -   While also a rare and serious, liver toxicity was colored gray because it only has a potential association with treatments.
 
 -   Both primary and secondary efficacy clinical endpoints were included because they were not correlated. Quality of Life was included to capture what was important to the subjects.
-
 :::
