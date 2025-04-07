@@ -6,11 +6,15 @@ title: "News"
 
 \~Marcus Garvey
 
-------------------------------------------------------------------------
-
-[If you would like to stay updated with details of our package development, please visit our <a href="NEWS.md">News</a> page.]{style="color: black"}
+<div style="color: black">
 
 ------------------------------------------------------------------------
+
+If you would like to stay updated with details of our package development, please visit our [News](NEWS.md) page.
+
+------------------------------------------------------------------------
+
+</div>
 
 ### March, 2025 {style="color: black"}
 
