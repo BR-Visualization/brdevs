@@ -47,8 +47,8 @@ prepare_dot_data_b <- function(data) {
     type = data$Type,
     factor = c(data$Factor, data$Factor),
     outcome = rep(factor(data$Outcome,
-                         levels =
-                           rev(unique(data$Outcome))
+      levels =
+        rev(unique(data$Outcome))
     ), 2),
     group = seq_len(length(prop1))
   )
@@ -245,12 +245,12 @@ prepare_absolute_risk_exp_adj <- function(data,
   ci_method <- match.arg(ci_method)
 
   rate1_risk <- ifelse(data$Rate_Type == "EventRate",
-                       data$EventRate1,
-                       data$IncRate1
+    data$EventRate1,
+    data$IncRate1
   )
   rate2_risk <- ifelse(data$Rate_Type == "EventRate",
-                       data$EventRate2,
-                       data$IncRate2
+    data$EventRate2,
+    data$IncRate2
   )
 
   diff <- rate1_risk - rate2_risk
@@ -297,12 +297,12 @@ prepare_absolute_risk_exp_adj <- function(data,
     }
 
     lower_risk <- ifelse(data$Rate_Type == "EventRate",
-                         data$Diff_EventRate_LowerCI,
-                         data$Diff_IncRate_LowerCI
+      data$Diff_EventRate_LowerCI,
+      data$Diff_IncRate_LowerCI
     )
     upper_risk <- ifelse(data$Rate_Type == "EventRate",
-                         data$Diff_EventRate_UpperCI,
-                         data$Diff_IncRate_UpperCI
+      data$Diff_EventRate_UpperCI,
+      data$Diff_IncRate_UpperCI
     )
 
     if (change_ref == "N") {
@@ -390,8 +390,8 @@ prepare_absolute_risk_exp_adj <- function(data,
     type = data$Type,
     factor = data$Factor,
     outcome = factor(paste(data$Outcome, data$Rate_Type),
-                     levels =
-                       rev(unique(paste(data$Outcome, data$Rate_Type)))
+      levels =
+        rev(unique(paste(data$Outcome, data$Rate_Type)))
     ),
     est,
     group = seq_len(length(rate1_risk))
@@ -531,8 +531,8 @@ prepare_absolute_risk_data <-
       factor = data$Factor,
       type = data$Type,
       outcome = factor(data$Outcome,
-                       levels =
-                         rev(unique(data$Outcome))
+        levels =
+          rev(unique(data$Outcome))
       ),
       est,
       group = seq_len(length(prop1))
@@ -685,8 +685,8 @@ prepare_relative_risk_data <-
       factor = data$Factor,
       type = data$Type,
       outcome = factor(data$Outcome,
-                       levels =
-                         rev(unique(data$Outcome))
+        levels =
+          rev(unique(data$Outcome))
       ),
       est,
       group = seq_len(length(prop1))
@@ -824,8 +824,8 @@ prepare_odds_ratio_data <- function(data, change_ref = c("Y", "N"),
     factor = data$Factor,
     type = data$Type,
     outcome = factor(data$Outcome,
-                     levels =
-                       rev(unique(data$Outcome))
+      levels =
+        rev(unique(data$Outcome))
     ),
     est,
     group = seq_len(length(prop1))
@@ -860,12 +860,12 @@ supplied_br_forest <- function(do, x, y, z) {
     glue("trigger analysis based on type")
   ))
   switch(do,
-         "Absolute risk" = prepare_absolute_risk_data(x, y, z),
-         "Relative risk" = prepare_relative_risk_data(x, y, z),
-         "Odds ratio" = prepare_odds_ratio_data(x, y, z),
-         "Exposure-adjusted rates (per 100 PYs)" =
-           prepare_absolute_risk_exp_adj(x, y, z),
-         "Nothing" = identity
+    "Absolute risk" = prepare_absolute_risk_data(x, y, z),
+    "Relative risk" = prepare_relative_risk_data(x, y, z),
+    "Odds ratio" = prepare_odds_ratio_data(x, y, z),
+    "Exposure-adjusted rates (per 100 PYs)" =
+      prepare_absolute_risk_exp_adj(x, y, z),
+    "Nothing" = identity
   )
 }
 
@@ -1017,10 +1017,10 @@ prepare_cont_benefits_data <- function(data,
     type = data$Type,
     factor = c(data$Factor, data$Factor),
     outcome = rep(factor(data$Outcome,
-                         levels =
-                           rev(
-                             unique(data$Outcome)
-                           )
+      levels =
+        rev(
+          unique(data$Outcome)
+        )
     ), 2),
     group = seq_len(length(mean1_benefit))
   )
@@ -1030,8 +1030,8 @@ prepare_cont_benefits_data <- function(data,
     type = data$Type,
     factor = data$Factor,
     outcome = factor(data$Outcome,
-                     levels =
-                       rev(unique(data$Outcome))
+      levels =
+        rev(unique(data$Outcome))
     ),
     est,
     group = seq_len(length(mean1_benefit))
@@ -1061,9 +1061,9 @@ prepare_cont_benefits_data <- function(data,
 pre_proc <- function(data, typeval, cod) {
   dfbr <- list()
   dfbr[[paste0("df_ben", cod)]] <- data[data$Type == typeval &
-                                          data$Factor == "Benefit", ]
+    data$Factor == "Benefit", ]
   dfbr[[paste0("df_risk", cod)]] <- data[data$Type == typeval &
-                                           data$Factor == "Risk", ]
+    data$Factor == "Risk", ]
   return(dfbr)
 }
 
@@ -1222,7 +1222,7 @@ prepare_dot_forest_plot_data <- function(data,
   # data for selected filter and category
   if (filters != "None") {
     df_filter <- df_filter[df_filter$Filter == filters &
-                             df_filter$Category %in% category, ]
+      df_filter$Category %in% category, ]
     df_filter$Outcome <- paste0(df_filter$Category, " : ", df_filter$Outcome)
   } else {
     df_filter <- df_filter[df_filter$Filter == "None", ]
@@ -1347,10 +1347,10 @@ prepare_dot_forest_plot_data <- function(data,
   )
 
   dot_plot_data$treatment <- factor(dot_plot_data$treatment,
-                                    levels = c(
-                                      levels(as.factor(data$Trt2)),
-                                      levels(as.factor(data$Trt1))
-                                    )
+    levels = c(
+      levels(as.factor(data$Trt2)),
+      levels(as.factor(data$Trt1))
+    )
   )
 
   if (filters != "None") {
@@ -1386,14 +1386,14 @@ prepare_dot_forest_plot_data <- function(data,
     dplyr::filter(.data[["treatment"]] != data$Trt2[1]) %>%
     dplyr::select(-c("rate")) %>%
     dplyr::right_join(forest_data,
-                      by = c("treatment", "type", "factor", "outcome", "group")
+      by = c("treatment", "type", "factor", "outcome", "group")
     )
 
   forest_plot_data$treatment <- factor(forest_plot_data$treatment,
-                                       levels = c(
-                                         levels(as.factor(data$Trt2)),
-                                         levels(as.factor(data$Trt1))
-                                       )
+    levels = c(
+      levels(as.factor(data$Trt2)),
+      levels(as.factor(data$Trt1))
+    )
   )
 
 
@@ -1454,23 +1454,23 @@ populated_effects_table <- function(data) {
   )
   res_diff_event_rates <- calculate_diff_rates(
     rate1 = data$EventRate1[data$Factor == "Risk" &
-                              data$Type == "Binary"],
+      data$Type == "Binary"],
     rate2 = data$EventRate2[data$Factor == "Risk" &
-                              data$Type == "Binary"],
+      data$Type == "Binary"],
     py1 = data[data$Factor == "Risk" &
-                 data$Type == "Binary", "100PEY1"],
+      data$Type == "Binary", "100PEY1"],
     py2 = data[data$Factor == "Risk" &
-                 data$Type == "Binary", "100PEY2"]
+      data$Type == "Binary", "100PEY2"]
   )
   res_diff_inc_rates <- calculate_diff_rates(
     rate1 = data$IncRate1[data$Factor == "Risk" &
-                            data$Type == "Binary"],
+      data$Type == "Binary"],
     rate2 = data$IncRate2[data$Factor == "Risk" &
-                            data$Type == "Binary"],
+      data$Type == "Binary"],
     py1 = data[data$Factor == "Risk" &
-                 data$Type == "Binary", "100PYAR1"],
+      data$Type == "Binary", "100PYAR1"],
     py2 = data[data$Factor == "Risk" &
-                 data$Type == "Binary", "100PYAR2"]
+      data$Type == "Binary", "100PYAR2"]
   )
 
   data$Diff_LowerCI[data$Type == "Binary"] <- res_diff_bin$lower
@@ -1569,7 +1569,7 @@ generate_fig_lft <- function(data,
 
   fig <- ggplot(data = sub_data) +
     geom_point(aes_string(x = "rate", y = "neword", color = "treatment"),
-               size = 2, alpha = 1
+      size = 2, alpha = 1
     ) +
     {
       if (!("subgp" %in% colnames(sub_data))) {
@@ -1611,7 +1611,7 @@ generate_fig_lft <- function(data,
     coord_cartesian(clip = "off")
 
   if (type_scale == "Fixed" &
-      type_subset %in% c("Binary") & x_scale_n1_p1 == "Y") {
+    type_subset %in% c("Binary") & x_scale_n1_p1 == "Y") {
     fig <- fig + scale_x_continuous(
       limits = c(0, 1),
       breaks = c(0, 0.2, 0.4, 0.6, 0.8, 1)
@@ -1628,9 +1628,9 @@ generate_fig_lft <- function(data,
     fig <- fig + scale_x_continuous(
       limits = c(0, 1),
       sec.axis = sec_axis(~ . * 1,
-                          name = "",
-                          breaks = min(data$rate),
-                          labels = " "
+        name = "",
+        breaks = min(data$rate),
+        labels = " "
       )
     )
 
@@ -1779,7 +1779,7 @@ generate_fig_rft <- function(data,
       plot.margin = unit(c(0, 0, 0, 30), "pt")
     )
   if (type_scale == "Fixed" &
-      type_subset %in% c("Binary") & x_scale_n1_p1 == "Y") {
+    type_subset %in% c("Binary") & x_scale_n1_p1 == "Y") {
     if (tolower(scale_x) == "log10") {
       scale_x_code_fixed <- scale_x_log10(
         limits = c(0.1, 10),
@@ -1904,7 +1904,7 @@ create_dot_forest_plot <- function(data,
 
   lft0_dot_plot_data <-
     dot_plot_data[dot_plot_data$factor == "Benefit" &
-                    dot_plot_data$type == "Continuous", ]
+      dot_plot_data$type == "Continuous", ]
 
   if (nrow(lft0_dot_plot_data) != 0) {
     lft0 <- generate_fig_lft(
@@ -1926,7 +1926,7 @@ create_dot_forest_plot <- function(data,
 
   rgt0_forest_plot_data <-
     forest_plot_data[forest_plot_data$factor == "Benefit" &
-                       forest_plot_data$type == "Continuous", ]
+      forest_plot_data$type == "Continuous", ]
 
   if (nrow(rgt0_forest_plot_data) != 0) {
     rgt0 <- generate_fig_rft(
@@ -1945,11 +1945,11 @@ create_dot_forest_plot <- function(data,
 
   lft1_dot_plot_data <-
     dot_plot_data[dot_plot_data$factor == "Benefit" &
-                    dot_plot_data$type == "Binary", ]
+      dot_plot_data$type == "Binary", ]
 
   rgt1_forest_plot_data <-
     forest_plot_data[forest_plot_data$factor == "Benefit" &
-                       forest_plot_data$type == "Binary", ]
+      forest_plot_data$type == "Binary", ]
 
   if (type_graph == "Absolute risk") {
     if (nrow(lft1_dot_plot_data) != 0) {
@@ -2049,11 +2049,11 @@ create_dot_forest_plot <- function(data,
 
   lft2_dot_plot_data <-
     dot_plot_data[dot_plot_data$factor == "Risk" &
-                    dot_plot_data$type == "Binary", ]
+      dot_plot_data$type == "Binary", ]
 
   rgt2_forest_plot_data <-
     forest_plot_data[forest_plot_data$factor == "Risk" &
-                       forest_plot_data$type == "Binary", ]
+      forest_plot_data$type == "Binary", ]
 
   if (type_risk == "Crude proportions") {
     if (type_graph == "Absolute risk") {
