@@ -9,23 +9,23 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Welcome to the Br-visualization Working Group Site",
+    "title": "Welcome to the BR-Decision Enhanced Visualizations Site",
     "section": "",
-    "text": "Welcome to the Br-visualization Working Group Site\n\nPrimary Goal\nTo advance structured Benefit-Risk Assessment (sBRA) by developing and promoting innovative visual analytics tools that enhance understanding, communication, and decision-making of benefit-risk assessment in the pharmaceutical and medical device industries.\n\n\nKey Objectives\n\n\n\n\n\n\nDevelop and implement user-centric visualization techniques that transform complex sBRA data into accessible, actionable insights for efficient decision-making.\n\n\nStandardize best practices for visual analytics in benefit-risk evaluation to ensure consistency and reliability.\n\n\nPromote the adoption of visual analytics tools across regulatory bodies, industry professionals, and stakeholder."
+    "text": "Welcome to the BR-Decision Enhanced Visualizations Site\n\nPrimary Goal\nTo advance structured Benefit-Risk Assessment (sBRA) by developing and promoting innovative visual analytics tools that enhance understanding, communication, and decision-making of benefit-risk assessment in the pharmaceutical and medical device industries.\n\n\nKey Objectives\n\n\n\n\n\n\nDevelop and implement user-centric visualization techniques that transform complex sBRA data into accessible, actionable insights for efficient decision-making.\n\n\nStandardize best practices for visual analytics in benefit-risk evaluation to ensure consistency and reliability.\n\n\nPromote the adoption of visual analytics tools across regulatory bodies, industry professionals, and stakeholder.\n\n\n\n\n\nContributing\nWe encourage contributions and recommendations to Benefit Risk Decision Enhanced Visualizations. Please refer to the Contributions guide for more information on how you can contribute."
   },
   {
     "objectID": "news.html",
     "href": "news.html",
     "title": "News",
     "section": "",
-    "text": "Progress is the attraction that moves humanity\n~Marcus Garvey\n\nFebruary 7, 2025\n\nGoals Achieved:\n\nInstallation Issues resolved utilizing Codespaces with brcharts(1)\nProposed goals and objectives for brcharts\nIssue template implementation\n\n\n\nAction Items:\n\nRevising goals and objectives\nRenaming strategy to advance static charts work\n\n\n\n\n\nJanuary 24, 2025\n\nGoals Achieved:\n\nDiscuss Benefit-Risk working groups\nPropose ideas for building static charts repo\n\n\n\nAction Items:\n\nDraft aims and objectives for brcharts\nInvestigate installation issues for brcharts(1)\nInvestigate template for Chart GitHub issue"
+    "text": "Progress is the attraction that moves humanity\n~Marcus Garvey\n\nFebruary, 2025\n\nGoals Achieved:\n\nInstallation Issues resolved utilizing Codespaces with brcharts(1)\nProposed goals and objectives for brcharts\nIssue template implementation\n\n\n\nAction Items:\n\nRevising goals and objectives\nRenaming strategy to advance static charts work\n\n\n\n\n\nJanuary, 2025\n\nGoals Achieved:\n\nDiscuss Benefit-Risk working groups\nPropose ideas for building static charts repo\n\n\n\nAction Items:\n\nDraft aims and objectives for brcharts\nInvestigate installation issues for brcharts(1)\nInvestigate template for Chart GitHub issue"
   },
   {
     "objectID": "aboutus.html",
     "href": "aboutus.html",
     "title": "About Us",
     "section": "",
-    "text": "add mini-bio here"
+    "text": "add mini-bio here\n\n\n\nadd mini-bio here\n\n\n\nadd mini-bio here\n\n\n\nadd mini-bio here\n\n\n\nadd mini-bio here\n\n\n\nadd mini-bio here\n\n\n\nadd mini-bio here\n\n\n\nadd mini-bio here"
   },
   {
     "objectID": "aboutus.html#chen-chen",
@@ -38,28 +38,266 @@
     "objectID": "aboutus.html#mike-colopy",
     "href": "aboutus.html#mike-colopy",
     "title": "About Us",
-    "section": "Mike Colopy",
-    "text": "Mike Colopy\nadd mini-bio here"
+    "section": "",
+    "text": "add mini-bio here"
   },
   {
     "objectID": "aboutus.html#glen-colopy",
     "href": "aboutus.html#glen-colopy",
     "title": "About Us",
-    "section": "Glen Colopy",
-    "text": "Glen Colopy\nadd mini-bio here"
+    "section": "",
+    "text": "add mini-bio here"
   },
   {
     "objectID": "aboutus.html#abigail-mabe",
     "href": "aboutus.html#abigail-mabe",
     "title": "About Us",
-    "section": "Abigail Mabe",
-    "text": "Abigail Mabe\nadd mini-bio here"
+    "section": "",
+    "text": "add mini-bio here"
   },
   {
     "objectID": "aboutus.html#lovemore-gakava",
     "href": "aboutus.html#lovemore-gakava",
     "title": "About Us",
-    "section": "Lovemore Gakava",
-    "text": "Lovemore Gakava\nadd mini-bio here"
+    "section": "",
+    "text": "add mini-bio here"
+  },
+  {
+    "objectID": "visualizations/correlogram.html",
+    "href": "visualizations/correlogram.html",
+    "title": "Correlogram",
+    "section": "",
+    "text": "Standard VisualizationSample CodeDescription\n\n\n\n\n\n\n\n\n\n\ncreate_correlogram(corr)\n\n\n\nHow to read:\n\nBoth the benefit and risk outcomes appear on the X-axis and Y-axis.\nThe strength of correlation between outcome pair is displayed at their intersection.\nEach correlation is color coded according to the legend at the top, ranging from dark blue (-1.0) to dark red (+1.0).\nEach correlation along the diagonal is dark red because it’s the correlation of an outcome with itself (i.e. =1.0)\nThe correlations above the diagonal are blank because they are the mirror image of the correlations below the diagonal.\nThe underlying correlation coefficients are calculated using formulas specific to the type of data (e.g. binary ordinal, or continuous).\n\nKey Conclusions:\n\nA positive correlation is expected between benefits and expected between risk. A negative correlation might appear between a benefit and risk. This would suggest that subject experiencing the benefit also experience the risk.\nAs expected, there is a high correlation between the primary and secondary efficacy outcomes. The team might decide to drop the secondary efficacy outcome if there is a concern with double counting.\nThere is also an explainable negative correlation between outcomes for quality-of-life and recurring AE. The medium positive correlation between recurring AE and primary efficacy is difficult to explain."
+  },
+  {
+    "objectID": "visualizations/data_viz/corr.html",
+    "href": "visualizations/data_viz/corr.html",
+    "title": "Benefit Risk Decision Enhanced Visualizations",
+    "section": "",
+    "text": "Primary Efficacy\nSecondary Efficacy\nQuality of Life\nRecurring AE\nRare SAE\nLiver Toxicity\n\n\n\n\n28.6347464\n68.8497090\n39.63003\n126.2302260\n2.7448928\n8.2127331\n\n\n78.8550510\n188.8745748\n44.05326\n9.6388415\n50.2607180\n-24.9116931\n\n\n-134.6022873\n-65.3447327\n45.98677\n-10.2238660\n-1.9401220\n-3.5193270\n\n\n38.0747450\n87.4897570\n40.44236\n150.1333293\n96.8139591\n-56.1839602\n\n\n42.8621692\n64.1946501\n43.82729\n25.5413389\n53.7978313\n-15.6811176\n\n\n-24.3956924\n31.8951216\n38.79078\n95.7754965\n56.1173680\n22.6937300\n\n\n-22.6465267\n-61.3399986\n37.80444\n232.8299224\n1.2676453\n-33.5118419\n\n\n-23.7554732\n129.2112800\n36.46870\n71.8366652\n99.8493397\n93.8488325\n\n\n-44.0166600\n129.0740093\n40.76342\n0.5344877\n21.9375751\n29.3159415\n\n\n-18.3253322\n102.6218117\n38.38352\n-24.5832428\n66.4268842\n11.3919646\n\n\n-50.7591879\n52.6526979\n40.50946\n21.3190722\n-37.3143377\n75.8882518\n\n\n-36.9358925\n22.5297902\n44.29165\n-36.5593830\n-34.8467766\n-23.7582914\n\n\n15.3816095\n80.8911140\n35.38641\n131.9138020\n79.2197625\n14.0028998\n\n\n71.0795993\n100.8748997\n34.29355\n150.3726567\n37.5466445\n4.6290339\n\n\n4.5072814\n120.7498375\n42.04888\n-6.7510517\n15.4443398\n66.9692997\n\n\n-20.4297500\n37.5473563\n39.36806\n70.3108082\n27.3705462\n-31.5131763\n\n\n-45.3332954\n23.4042650\n38.99633\n62.8714977\n61.5257811\n71.3331590\n\n\n-40.7268027\n122.7651455\n41.15894\n-51.2368911\n61.5855322\n51.9378440\n\n\n161.7076205\n200.4853658\n43.31473\n132.1065610\n92.9651732\n-24.8397073\n\n\n19.7146431\n154.1921096\n39.59566\n102.1212455\n86.6874340\n-22.6311855\n\n\n-19.1650130\n93.3012159\n39.88907\n-38.2609596\n119.7417462\n18.0831300\n\n\n-16.0449267\n14.7088007\n34.89743\n68.6567337\n12.3624784\n-0.8823772\n\n\n39.9705647\n234.9828749\n38.42224\n141.0612891\n68.9258446\n26.3285566\n\n\n-31.7998285\n34.4996640\n38.75141\n34.0466870\n18.5720516\n18.3878866\n\n\n-78.7513642\n38.3085159\n40.02700\n-7.7214332\n3.1059476\n79.3852146\n\n\n47.1373554\n25.7685796\n38.16204\n161.9777256\n-4.7781990\n-42.4774232\n\n\n-52.3316936\n80.9801614\n36.36057\n217.2575368\n24.0752839\n65.3591933\n\n\n10.4282856\n88.8704830\n46.01777\n36.5669528\n15.7450351\n-31.7536874\n\n\n-46.8736846\n-17.4624002\n42.51558\n39.0585622\n37.1649018\n-19.4846773\n\n\n79.9662518\n79.1370134\n39.91929\n79.5176199\n13.0256519\n-30.2200804\n\n\n-18.2257879\n110.0492227\n38.19878\n105.7432217\n78.1872117\n7.7090784\n\n\n-32.7780702\n40.5937157\n38.44066\n82.9276157\n68.1964023\n38.3200587\n\n\n-19.8229181\n-0.9881682\n40.58105\n75.9663546\n16.4467616\n69.3045957\n\n\n-90.0080485\n86.1123674\n37.38064\n143.2909157\n-9.8291275\n88.2640076\n\n\n-61.2905361\n99.7509530\n46.68208\n-33.5603597\n28.6829607\n0.1351458\n\n\n-124.2933965\n-57.9984677\n40.96947\n-22.0180675\n18.7708619\n0.7627824\n\n\n-72.0795854\n28.1150945\n40.28972\n13.2725126\n94.2801920\n36.9445284\n\n\n-6.9435482\n68.4765728\n40.27453\n72.4522042\n-5.5332754\n-30.2821630\n\n\n-17.6224351\n60.7787849\n40.84103\n-116.1469249\n110.7960186\n-0.6430450\n\n\n101.5724074\n116.2886659\n40.80499\n104.7751550\n41.6233053\n-25.3426313\n\n\n-55.1312320\n59.6977349\n42.23422\n-8.2863652\n58.0398782\n8.7098614\n\n\n-41.8589491\n36.4425406\n40.45789\n97.0832140\n91.9472031\n8.1850265\n\n\n-6.0928116\n-27.6041214\n37.05055\n-32.4998052\n119.9575406\n46.6162027\n\n\n-50.5073826\n-8.3648864\n39.29292\n102.0068503\n26.4744716\n50.9126415\n\n\n-48.9002472\n71.8271303\n44.79027\n-122.1733108\n71.9858242\n-36.8244262\n\n\n-57.5380041\n72.5184663\n42.74951\n-136.3069930\n56.0584482\n39.3643688\n\n\n-66.5406660\n-41.5862786\n35.58964\n152.0681938\n102.4553503\n-25.6037166\n\n\n-21.2274515\n15.4599544\n40.06019\n-27.4694288\n39.8050346\n-29.3699502\n\n\n-19.5486021\n32.5353239\n41.32824\n56.3810319\n-2.2139052\n-2.1415314\n\n\n-101.0188765\n6.5588179\n39.94988\n-57.4948319\n103.5795215\n30.6802841\n\n\n-24.8522090\n112.2017055\n42.47423\n-170.3187978\n52.1026936\n14.1418915\n\n\n-57.6357942\n5.5777317\n36.12070\n125.0231270\n28.1158013\n96.5040935\n\n\n-51.7906843\n44.1270608\n38.18279\n0.3274281\n53.2569821\n39.9320915\n\n\n1.2698291\n27.3466673\n39.01634\n52.0277624\n28.4452158\n20.5452128\n\n\n46.4092712\n184.1704923\n41.73680\n17.3185745\n113.4304301\n50.8247179\n\n\n113.9139244\n128.7995549\n42.25408\n39.0039681\n16.5398850\n49.0937027\n\n\n-36.7553964\n-40.3748589\n41.58438\n-25.8240435\n71.8158438\n-6.0633105\n\n\n111.3060018\n214.5773650\n38.26767\n75.6739774\n62.7799409\n15.4943687\n\n\n-60.6800159\n-25.9095561\n40.81362\n17.9375080\n127.5578147\n8.4972633\n\n\n52.2298022\n120.2641024\n44.37976\n-26.2222404\n22.7767112\n17.7781600\n\n\n169.9939037\n217.6584855\n41.38606\n214.8930413\n-4.7527873\n32.0399837\n\n\n9.2072041\n80.1308609\n38.39010\n154.2012588\n84.5506122\n14.2999486\n\n\n-30.3009167\n62.0706472\n46.23824\n-11.2114711\n7.8808627\n-26.4118164\n\n\n10.8970976\n50.2074414\n37.66741\n186.2354189\n-10.5700961\n41.3847506\n\n\n121.9582006\n131.4333637\n41.18175\n159.6260128\n28.4451855\n-14.0229799\n\n\n-59.4851506\n-23.1114175\n36.69332\n116.4941152\n47.3844284\n-33.0523060\n\n\n96.4901451\n200.7875048\n31.94917\n143.5935450\n84.4878035\n67.2665691\n\n\n94.1090789\n203.1026313\n38.93847\n-60.0940546\n68.2596645\n4.1500629\n\n\n32.3090233\n152.3448979\n37.86486\n195.4214579\n105.1812192\n29.1207723\n\n\n11.7992821\n-4.0146696\n40.13834\n87.5671749\n54.3946677\n-18.6228259\n\n\n-16.9734513\n87.3219769\n39.17527\n106.9353268\n57.4855376\n26.2581881\n\n\n-11.4384214\n59.7193150\n39.45425\n116.3869842\n35.6219274\n19.7105208\n\n\n51.7131756\n135.1497695\n36.81275\n183.4692347\n74.9199136\n17.1596397\n\n\n140.2031736\n200.1822403\n46.44016\n145.6098789\n24.1809655\n-22.6140310\n\n\n1.8243671\n74.3443372\n43.29044\n1.3599322\n-3.0128830\n40.8591397\n\n\n-75.1728960\n-31.7933467\n41.54217\n-60.7241406\n18.3729912\n1.1875410\n\n\n-33.6581098\n51.2513562\n38.89214\n60.7458483\n5.6730887\n85.4500950\n\n\n27.4419552\n135.8754520\n41.21956\n-14.0635579\n-4.0726940\n-15.7515553\n\n\n-8.3602287\n41.8671891\n43.14656\n16.2634791\n4.9736624\n16.2826708\n\n\n0.3064826\n75.0646737\n39.67886\n144.7053321\n105.4820698\n18.1581889\n\n\n0.7916198\n201.0629124\n45.80985\n-40.8889968\n61.2615509\n28.1410365\n\n\n-74.0279236\n-3.9926316\n39.34466\n134.9940977\n-25.0741324\n12.7588578\n\n\n0.5555759\n75.4009737\n41.62269\n-27.2233058\n0.6849733\n73.4910036\n\n\n64.2802439\n150.3679892\n39.33840\n117.2634444\n-1.0329439\n43.2866275\n\n\n54.7824897\n97.4652213\n42.37141\n70.5182993\n33.8769975\n23.9236214\n\n\n45.5966436\n107.8917161\n44.30405\n7.4503693\n0.2954972\n24.9489034\n\n\n-13.6916457\n22.1703421\n38.39372\n44.9752753\n125.7051540\n10.5207351\n\n\n-0.5525278\n53.0910085\n40.06481\n-43.8283584\n75.6072807\n15.4589839\n\n\n-62.9650577\n83.0462167\n38.82610\n154.9383289\n22.4914169\n23.8594408\n\n\n8.0622710\n105.2415220\n38.46475\n125.0517809\n115.1561792\n12.1662901\n\n\n27.2511731\n70.0893485\n41.72761\n-19.9141026\n57.5618356\n22.8117455\n\n\n117.5323798\n113.7759426\n40.31522\n165.7602166\n101.5095655\n-12.2285960\n\n\n73.6944512\n101.8613620\n35.69602\n154.4472408\n61.4627405\n-10.1833972\n\n\n-19.4697870\n48.0751978\n42.42785\n-12.7739570\n57.6699496\n-38.4447107\n\n\n33.4962150\n95.1913812\n43.47090\n40.6788864\n35.9481935\n-64.2976472\n\n\n-59.2362499\n36.9641218\n38.53917\n52.0431779\n21.3302781\n-11.7838188\n\n\n66.0209006\n70.4026409\n37.55103\n209.4064518\n62.0338256\n-12.1602393\n\n\n71.9148928\n172.4679635\n45.15083\n21.8654323\n25.3954152\n-8.3629861\n\n\n143.3673324\n267.1253280\n42.44994\n-7.0512262\n92.4072903\n4.3355580\n\n\n37.1661160\n86.4714877\n40.51392\n48.3404740\n87.4180912\n-23.9221054\n\n\n\n\n\n\n\nIf you would like to download the above data, you may do so here: Download correlogram data"
+  },
+  {
+    "objectID": "CONTRIBUTIONS.html",
+    "href": "CONTRIBUTIONS.html",
+    "title": "Template for opening GitHub issues to request new graphs",
+    "section": "",
+    "text": "Please follow the below template if you wish to contribute.\n\nTemplate for opening GitHub issues to request new graphs\nFigure shell\nGive a figure shell for the requested new graph (could be a draft version)\nA brief introduction to the graph\nGive a brief introduction to the graph\nX-axis\nDescribe the x-axis\nY-axis\nDescribe the y-axis\nGraph area objects\nDescribe the graph area objects (e.g., dots, lines, shaded areas)\nLegend\nDescribe the legend\nInstructions for enhancements\nGive instructions for making enhancements\nInput data format\nDescribe the format of input data\nUse of the graph\nDescribe the use of the graph"
+  },
+  {
+    "objectID": "aboutus.html#melvin-munsaka",
+    "href": "aboutus.html#melvin-munsaka",
+    "title": "About Us",
+    "section": "",
+    "text": "add mini-bio here"
+  },
+  {
+    "objectID": "aboutus.html#xiao-ni",
+    "href": "aboutus.html#xiao-ni",
+    "title": "About Us",
+    "section": "",
+    "text": "add mini-bio here"
+  },
+  {
+    "objectID": "aboutus.html#brian-waterhouse",
+    "href": "aboutus.html#brian-waterhouse",
+    "title": "About Us",
+    "section": "",
+    "text": "add mini-bio here"
+  },
+  {
+    "objectID": "NEWS.html",
+    "href": "NEWS.html",
+    "title": "brdevs 0.0.1",
+    "section": "",
+    "text": "brdevs 0.0.1\n\nInitial CRAN submission."
+  },
+  {
+    "objectID": "CODE_OF_CONDUCT.html",
+    "href": "CODE_OF_CONDUCT.html",
+    "title": "Contributor Covenant Code of Conduct",
+    "section": "",
+    "text": "We as members, contributors, and leaders pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, caste, color, religion, or sexual identity and orientation.\nWe pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community.\n\n\n\nExamples of behavior that contributes to a positive environment for our community include:\n\nDemonstrating empathy and kindness toward other people\nBeing respectful of differing opinions, viewpoints, and experiences\nGiving and gracefully accepting constructive feedback\nAccepting responsibility and apologizing to those affected by our mistakes, and learning from the experience\nFocusing on what is best not just for us as individuals, but for the overall community\n\nExamples of unacceptable behavior include:\n\nThe use of sexualized language or imagery, and sexual attention or advances of any kind\nTrolling, insulting or derogatory comments, and personal or political attacks\nPublic or private harassment\nPublishing others’ private information, such as a physical or email address, without their explicit permission\nOther conduct which could reasonably be considered inappropriate in a professional setting\n\n\n\n\nCommunity leaders are responsible for clarifying and enforcing our standards of acceptable behavior and will take appropriate and fair corrective action in response to any behavior that they deem inappropriate, threatening, offensive, or harmful.\nCommunity leaders have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, and will communicate reasons for moderation decisions when appropriate.\n\n\n\nThis Code of Conduct applies within all community spaces, and also applies when an individual is officially representing the community in public spaces. Examples of representing our community include using an official e-mail address, posting via an official social media account, or acting as an appointed representative at an online or offline event.\n\n\n\nInstances of abusive, harassing, or otherwise unacceptable behavior may be reported to the community leaders responsible for enforcement at abigailmabe03@gmail.com. All complaints will be reviewed and investigated promptly and fairly.\nAll community leaders are obligated to respect the privacy and security of the reporter of any incident.\n\n\n\nCommunity leaders will follow these Community Impact Guidelines in determining the consequences for any action they deem in violation of this Code of Conduct:\n\n\nCommunity Impact: Use of inappropriate language or other behavior deemed unprofessional or unwelcome in the community.\nConsequence: A private, written warning from community leaders, providing clarity around the nature of the violation and an explanation of why the behavior was inappropriate. A public apology may be requested.\n\n\n\nCommunity Impact: A violation through a single incident or series of actions.\nConsequence: A warning with consequences for continued behavior. No interaction with the people involved, including unsolicited interaction with those enforcing the Code of Conduct, for a specified period of time. This includes avoiding interactions in community spaces as well as external channels like social media. Violating these terms may lead to a temporary or permanent ban.\n\n\n\nCommunity Impact: A serious violation of community standards, including sustained inappropriate behavior.\nConsequence: A temporary ban from any sort of interaction or public communication with the community for a specified period of time. No public or private interaction with the people involved, including unsolicited interaction with those enforcing the Code of Conduct, is allowed during this period. Violating these terms may lead to a permanent ban.\n\n\n\nCommunity Impact: Demonstrating a pattern of violation of community standards, including sustained inappropriate behavior, harassment of an individual, or aggression toward or disparagement of classes of individuals.\nConsequence: A permanent ban from any sort of public interaction within the community.\n\n\n\n\nThis Code of Conduct is adapted from the Contributor Covenant, version 2.1, available at https://www.contributor-covenant.org/version/2/1/code_of_conduct.html.\nCommunity Impact Guidelines were inspired by [Mozilla’s code of conduct enforcement ladder][https://github.com/mozilla/inclusion].\nFor answers to common questions about this code of conduct, see the FAQ at https://www.contributor-covenant.org/faq. Translations are available at https://www.contributor-covenant.org/translations."
+  },
+  {
+    "objectID": "CODE_OF_CONDUCT.html#our-pledge",
+    "href": "CODE_OF_CONDUCT.html#our-pledge",
+    "title": "Contributor Covenant Code of Conduct",
+    "section": "",
+    "text": "We as members, contributors, and leaders pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, caste, color, religion, or sexual identity and orientation.\nWe pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community."
+  },
+  {
+    "objectID": "CODE_OF_CONDUCT.html#our-standards",
+    "href": "CODE_OF_CONDUCT.html#our-standards",
+    "title": "Contributor Covenant Code of Conduct",
+    "section": "",
+    "text": "Examples of behavior that contributes to a positive environment for our community include:\n\nDemonstrating empathy and kindness toward other people\nBeing respectful of differing opinions, viewpoints, and experiences\nGiving and gracefully accepting constructive feedback\nAccepting responsibility and apologizing to those affected by our mistakes, and learning from the experience\nFocusing on what is best not just for us as individuals, but for the overall community\n\nExamples of unacceptable behavior include:\n\nThe use of sexualized language or imagery, and sexual attention or advances of any kind\nTrolling, insulting or derogatory comments, and personal or political attacks\nPublic or private harassment\nPublishing others’ private information, such as a physical or email address, without their explicit permission\nOther conduct which could reasonably be considered inappropriate in a professional setting"
+  },
+  {
+    "objectID": "CODE_OF_CONDUCT.html#enforcement-responsibilities",
+    "href": "CODE_OF_CONDUCT.html#enforcement-responsibilities",
+    "title": "Contributor Covenant Code of Conduct",
+    "section": "",
+    "text": "Community leaders are responsible for clarifying and enforcing our standards of acceptable behavior and will take appropriate and fair corrective action in response to any behavior that they deem inappropriate, threatening, offensive, or harmful.\nCommunity leaders have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, and will communicate reasons for moderation decisions when appropriate."
+  },
+  {
+    "objectID": "CODE_OF_CONDUCT.html#scope",
+    "href": "CODE_OF_CONDUCT.html#scope",
+    "title": "Contributor Covenant Code of Conduct",
+    "section": "",
+    "text": "This Code of Conduct applies within all community spaces, and also applies when an individual is officially representing the community in public spaces. Examples of representing our community include using an official e-mail address, posting via an official social media account, or acting as an appointed representative at an online or offline event."
+  },
+  {
+    "objectID": "CODE_OF_CONDUCT.html#enforcement",
+    "href": "CODE_OF_CONDUCT.html#enforcement",
+    "title": "Contributor Covenant Code of Conduct",
+    "section": "",
+    "text": "Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the community leaders responsible for enforcement at abigailmabe03@gmail.com. All complaints will be reviewed and investigated promptly and fairly.\nAll community leaders are obligated to respect the privacy and security of the reporter of any incident."
+  },
+  {
+    "objectID": "CODE_OF_CONDUCT.html#enforcement-guidelines",
+    "href": "CODE_OF_CONDUCT.html#enforcement-guidelines",
+    "title": "Contributor Covenant Code of Conduct",
+    "section": "",
+    "text": "Community leaders will follow these Community Impact Guidelines in determining the consequences for any action they deem in violation of this Code of Conduct:\n\n\nCommunity Impact: Use of inappropriate language or other behavior deemed unprofessional or unwelcome in the community.\nConsequence: A private, written warning from community leaders, providing clarity around the nature of the violation and an explanation of why the behavior was inappropriate. A public apology may be requested.\n\n\n\nCommunity Impact: A violation through a single incident or series of actions.\nConsequence: A warning with consequences for continued behavior. No interaction with the people involved, including unsolicited interaction with those enforcing the Code of Conduct, for a specified period of time. This includes avoiding interactions in community spaces as well as external channels like social media. Violating these terms may lead to a temporary or permanent ban.\n\n\n\nCommunity Impact: A serious violation of community standards, including sustained inappropriate behavior.\nConsequence: A temporary ban from any sort of interaction or public communication with the community for a specified period of time. No public or private interaction with the people involved, including unsolicited interaction with those enforcing the Code of Conduct, is allowed during this period. Violating these terms may lead to a permanent ban.\n\n\n\nCommunity Impact: Demonstrating a pattern of violation of community standards, including sustained inappropriate behavior, harassment of an individual, or aggression toward or disparagement of classes of individuals.\nConsequence: A permanent ban from any sort of public interaction within the community."
+  },
+  {
+    "objectID": "CODE_OF_CONDUCT.html#attribution",
+    "href": "CODE_OF_CONDUCT.html#attribution",
+    "title": "Contributor Covenant Code of Conduct",
+    "section": "",
+    "text": "This Code of Conduct is adapted from the Contributor Covenant, version 2.1, available at https://www.contributor-covenant.org/version/2/1/code_of_conduct.html.\nCommunity Impact Guidelines were inspired by [Mozilla’s code of conduct enforcement ladder][https://github.com/mozilla/inclusion].\nFor answers to common questions about this code of conduct, see the FAQ at https://www.contributor-covenant.org/faq. Translations are available at https://www.contributor-covenant.org/translations."
+  },
+  {
+    "objectID": "LICENSE.html",
+    "href": "LICENSE.html",
+    "title": "MIT License",
+    "section": "",
+    "text": "MIT License\nCopyright (c) 2025 brdevs authors\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+  },
+  {
+    "objectID": "CONTRIBUTING.html",
+    "href": "CONTRIBUTING.html",
+    "title": "Contributing to brdevs",
+    "section": "",
+    "text": "This outlines how to propose a change to brdevs. For a detailed discussion on contributing to this and other tidyverse packages, please see the development contributing guide and our code review principles.\n\n\nYou can fix typos, spelling mistakes, or grammatical errors in the documentation directly using the GitHub web interface, as long as the changes are made in the source file. This generally means you’ll need to edit roxygen2 comments in an .R, not a .Rd file. You can find the .R file that generates the .Rd by reading the comment in the first line.\n\n\n\nIf you want to make a bigger change, it’s a good idea to first file an issue and make sure someone from the team agrees that it’s needed. If you’ve found a bug, please file an issue that illustrates the bug with a minimal reprex (this will also help you write a unit test, if needed). See our guide on how to create a great issue for more advice.\n\n\n\nFork the package and clone onto your computer. If you haven’t done this before, we recommend using usethis::create_from_github(\"BR-Visualization/brdevs\", fork = TRUE).\nInstall all development dependencies with devtools::install_dev_deps(), and then make sure the package passes R CMD check by running devtools::check(). If R CMD check doesn’t pass cleanly, it’s a good idea to ask for help before continuing.\nCreate a Git branch for your pull request (PR). We recommend using usethis::pr_init(\"brief-description-of-change\").\nMake your changes, commit to git, and then create a PR by running usethis::pr_push(), and following the prompts in your browser. The title of your PR should briefly describe the change. The body of your PR should contain Fixes #issue-number.\nFor user-facing changes, add a bullet to the top of NEWS.md (i.e. just below the first header). Follow the style described in https://style.tidyverse.org/news.html.\n\n\n\n\n\nNew code should follow the tidyverse style guide. You can use the styler package to apply these styles, but please don’t restyle code that has nothing to do with your PR.\nWe use roxygen2, with Markdown syntax, for documentation.\nWe use testthat for unit tests. Contributions with test cases included are easier to accept.\n\n\n\n\n\nPlease note that the brdevs project is released with a Contributor Code of Conduct. By contributing to this project you agree to abide by its terms."
+  },
+  {
+    "objectID": "CONTRIBUTING.html#fixing-typos",
+    "href": "CONTRIBUTING.html#fixing-typos",
+    "title": "Contributing to brdevs",
+    "section": "",
+    "text": "You can fix typos, spelling mistakes, or grammatical errors in the documentation directly using the GitHub web interface, as long as the changes are made in the source file. This generally means you’ll need to edit roxygen2 comments in an .R, not a .Rd file. You can find the .R file that generates the .Rd by reading the comment in the first line."
+  },
+  {
+    "objectID": "CONTRIBUTING.html#bigger-changes",
+    "href": "CONTRIBUTING.html#bigger-changes",
+    "title": "Contributing to brdevs",
+    "section": "",
+    "text": "If you want to make a bigger change, it’s a good idea to first file an issue and make sure someone from the team agrees that it’s needed. If you’ve found a bug, please file an issue that illustrates the bug with a minimal reprex (this will also help you write a unit test, if needed). See our guide on how to create a great issue for more advice.\n\n\n\nFork the package and clone onto your computer. If you haven’t done this before, we recommend using usethis::create_from_github(\"BR-Visualization/brdevs\", fork = TRUE).\nInstall all development dependencies with devtools::install_dev_deps(), and then make sure the package passes R CMD check by running devtools::check(). If R CMD check doesn’t pass cleanly, it’s a good idea to ask for help before continuing.\nCreate a Git branch for your pull request (PR). We recommend using usethis::pr_init(\"brief-description-of-change\").\nMake your changes, commit to git, and then create a PR by running usethis::pr_push(), and following the prompts in your browser. The title of your PR should briefly describe the change. The body of your PR should contain Fixes #issue-number.\nFor user-facing changes, add a bullet to the top of NEWS.md (i.e. just below the first header). Follow the style described in https://style.tidyverse.org/news.html.\n\n\n\n\n\nNew code should follow the tidyverse style guide. You can use the styler package to apply these styles, but please don’t restyle code that has nothing to do with your PR.\nWe use roxygen2, with Markdown syntax, for documentation.\nWe use testthat for unit tests. Contributions with test cases included are easier to accept."
+  },
+  {
+    "objectID": "CONTRIBUTING.html#code-of-conduct",
+    "href": "CONTRIBUTING.html#code-of-conduct",
+    "title": "Contributing to brdevs",
+    "section": "",
+    "text": "Please note that the brdevs project is released with a Contributor Code of Conduct. By contributing to this project you agree to abide by its terms."
+  },
+  {
+    "objectID": "vignettes/brdevs.html",
+    "href": "vignettes/brdevs.html",
+    "title": "brdevs",
+    "section": "",
+    "text": "library(brdevs)\n#&gt; Loading required package: tidyverse\n#&gt; ── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n#&gt; ✔ dplyr     1.1.4     ✔ readr     2.1.5\n#&gt; ✔ forcats   1.0.0     ✔ stringr   1.5.1\n#&gt; ✔ ggplot2   3.5.1     ✔ tibble    3.2.1\n#&gt; ✔ lubridate 1.9.4     ✔ tidyr     1.3.1\n#&gt; ✔ purrr     1.0.4     \n#&gt; ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n#&gt; ✖ dplyr::filter() masks stats::filter()\n#&gt; ✖ dplyr::lag()    masks stats::lag()\n#&gt; ℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors"
+  },
+  {
+    "objectID": "web_utils/aboutus.html",
+    "href": "web_utils/aboutus.html",
+    "title": "About Us",
+    "section": "",
+    "text": "add mini-bio here\n\n\n\nChen Chen, PhD is a safety statistician at UCB, where she provides statistical support on product-level safety analysis planning and reporting. She has more than 7 years of experience working in the pharmaceutical industry across various therapeutic areas. Her research interest lies in the areas of quantitative methods and visualizations for safety signal detection and benefit-risk assessment.\n\n\n\nadd mini-bio here\n\n\n\nadd mini-bio here\n\n\n\nadd mini-bio here\n\n\n\nadd mini-bio here\n\n\n\nadd mini-bio here\n\n\n\nadd mini-bio here"
+  },
+  {
+    "objectID": "web_utils/aboutus.html#chen-chen",
+    "href": "web_utils/aboutus.html#chen-chen",
+    "title": "About Us",
+    "section": "",
+    "text": "Chen Chen, PhD is a safety statistician at UCB, where she provides statistical support on product-level safety analysis planning and reporting. She has more than 7 years of experience working in the pharmaceutical industry across various therapeutic areas. Her research interest lies in the areas of quantitative methods and visualizations for safety signal detection and benefit-risk assessment."
+  },
+  {
+    "objectID": "web_utils/aboutus.html#mike-colopy",
+    "href": "web_utils/aboutus.html#mike-colopy",
+    "title": "About Us",
+    "section": "",
+    "text": "add mini-bio here"
+  },
+  {
+    "objectID": "web_utils/aboutus.html#glen-colopy",
+    "href": "web_utils/aboutus.html#glen-colopy",
+    "title": "About Us",
+    "section": "",
+    "text": "add mini-bio here"
+  },
+  {
+    "objectID": "web_utils/aboutus.html#abigail-mabe",
+    "href": "web_utils/aboutus.html#abigail-mabe",
+    "title": "About Us",
+    "section": "",
+    "text": "add mini-bio here"
+  },
+  {
+    "objectID": "web_utils/aboutus.html#lovemore-gakava",
+    "href": "web_utils/aboutus.html#lovemore-gakava",
+    "title": "About Us",
+    "section": "",
+    "text": "add mini-bio here"
+  },
+  {
+    "objectID": "web_utils/aboutus.html#melvin-munsaka",
+    "href": "web_utils/aboutus.html#melvin-munsaka",
+    "title": "About Us",
+    "section": "",
+    "text": "add mini-bio here"
+  },
+  {
+    "objectID": "web_utils/aboutus.html#xiao-ni",
+    "href": "web_utils/aboutus.html#xiao-ni",
+    "title": "About Us",
+    "section": "",
+    "text": "add mini-bio here"
+  },
+  {
+    "objectID": "web_utils/aboutus.html#brian-waterhouse",
+    "href": "web_utils/aboutus.html#brian-waterhouse",
+    "title": "About Us",
+    "section": "",
+    "text": "add mini-bio here"
+  },
+  {
+    "objectID": "web_utils/news.html",
+    "href": "web_utils/news.html",
+    "title": "News",
+    "section": "",
+    "text": "Progress is the attraction that moves humanity\n~Marcus Garvey\n\nFebruary, 2025\n\nGoals Achieved:\n\nInstallation Issues resolved utilizing Codespaces with brcharts(1)\nProposed goals and objectives for brcharts\nIssue template implementation\n\n\n\nAction Items:\n\nRevising goals and objectives\nRenaming strategy to advance static charts work\n\n\n\n\n\nJanuary, 2025\n\nGoals Achieved:\n\nDiscuss Benefit-Risk working groups\nPropose ideas for building static charts repo\n\n\n\nAction Items:\n\nDraft aims and objectives for brcharts\nInvestigate installation issues for brcharts(1)\nInvestigate template for Chart GitHub issue"
+  },
+  {
+    "objectID": "web_utils/index.html",
+    "href": "web_utils/index.html",
+    "title": "Welcome to the BR-Decision Enhanced Visualizations Site",
+    "section": "",
+    "text": "Welcome to the BR-Decision Enhanced Visualizations Site\n\nPrimary Goal\nTo advance structured Benefit-Risk Assessment (sBRA) by developing and promoting innovative visual analytics tools that enhance understanding, communication, and decision-making of benefit-risk assessment in the pharmaceutical and medical device industries.\n\n\nKey Objectives\n\n\n\n\n\n\nDevelop and implement user-centric visualization techniques that transform complex sBRA data into accessible, actionable insights for efficient decision-making.\n\n\nStandardize best practices for visual analytics in benefit-risk evaluation to ensure consistency and reliability.\n\n\nPromote the adoption of visual analytics tools across regulatory bodies, industry professionals, and stakeholder.\n\n\n\n\n\nContributing\nWe encourage contributions and recommendations to Benefit Risk Decision Enhanced Visualizations. Please refer to the Contributions guide for more information on how you can contribute."
+  },
+  {
+    "objectID": "R/Value_Tree.html",
+    "href": "R/Value_Tree.html",
+    "title": "Value Tree",
+    "section": "",
+    "text": "Standard VisualizationSample CodeDescription\n\n\n\n\n\n\n\n\n\n\n\nvalue_tree(\n  diagram =\n    \"graph LR;\n   A(&lt;B&gt;Benefit-Risk Balance&lt;/B&gt;)--&gt;B(&lt;B&gt;Benefits&lt;/B&gt;)\n   B--&gt;C(&lt;B&gt;Primary Efficacy&lt;/B&gt;)\n   B--&gt;D(&lt;B&gt;Secondary Efficacy&lt;/B&gt;)\n   B--&gt;E(&lt;B&gt;Quality of life&lt;/B&gt;)\n   C--&gt;F(&lt;B&gt;% Success&lt;/B&gt;)\n   D--&gt;G(&lt;B&gt;Mean change&lt;/B&gt;)\n   E--&gt;H(&lt;B&gt;Mean change&lt;/B&gt;)\n   A--&gt;I(&lt;B&gt;Risks&lt;/B&gt;)\n   I--&gt;J(&lt;B&gt;Recurring AE&lt;/B&gt;)\n   I--&gt;K(&lt;B&gt;Rare SAE&lt;/B&gt;)\n   I--&gt;L(&lt;B&gt;Liver Toxicity&lt;/B&gt;)\n   J--&gt;M(&lt;B&gt;Event rate&lt;/B&gt;)\n   K--&gt;N(&lt;B&gt;% Event&lt;/B&gt;)\n   L--&gt;O(&lt;B&gt;% Event&lt;/B&gt;)\n   style A fill:#7ABD7E\n   style B fill:#7ABD7E\n   style I fill:#7ABD7E\n   style C fill:#FFE733\n   style D fill:#FFE733\n   style E fill:#FFE733\n   style J fill:#FFE733\n   style K fill:#FFE733\n   style L fill:#C6C6C6\n   style F fill: #FFAA1C\n   style G fill: #FFAA1C\n   style H fill: #FFAA1C\n   style M fill: #FFAA1C\n   style N fill: #FFAA1C\n   style O fill: #C6C6C6\n   \"\n)\n\n\n\nHow to read\n\nA value tree is a diagram that includes all key benefits and risks identified by the stakeholder or decision-makers to be important to the decision, particular to the patient population considered.\nThe tree has no quantitative values, but rather displays outcomes valued by decision makers.\nThe benefits typically include primary and secondary clinical endpoints, and a Quality of Life measure. Occasionally it includes a measure of convenience and out-of-pocket expense.\n\nBenefits are statistically characterized at the right as means, mean change from baseline, proportions (ex.% Success), or rates.\n\nThe risks are typically organ toxicities or adverse events of special interest and can be statistically characterized as proportions or rates (ex. incidence per 100 subjects or per 10,000 subject-years).\nThe value tree can be used to facilitate team discussions about which outcomes to capture in a clinical study.\nValue trees can start with many branches that can be pruned or combined to form a smaller tree that best assess the tradeoffs between key benefits and key risks.\nIf two outcomes are highly correlated, then only one should be used, so as to avoid double counting.\nThe same outcome can be specified two different ways, either a clinical endpoint (ex. blood pressure) or a patient-focused outcome (ex. ability to climb stairs). The decision makers would need to decide which one to keep.\n\nKey Conclusions:\n\nThe size of this value tree was reduced by grouping frequently occurring adverse events into a single “recurring AE” outcome and grouping rare but serious adverse events into a single outcome.\nWhile also a rare and serious, liver toxicity was colored gray because it only has a potential association with treatments.\nBoth primary and secondary efficacy clinical endpoints were included because they were not correlated. Quality of Life was included to capture what was important to the subjects."
+  },
+  {
+    "objectID": "R/correlogram.html",
+    "href": "R/correlogram.html",
+    "title": "Correlogram",
+    "section": "",
+    "text": "Standard VisualizationSample CodeDescription\n\n\n\n\n\n\n\n\n\n\ncreate_correlogram(corr)\n\n\n\nHow to read:\n\nBoth the benefit and risk outcomes appear on the X-axis and Y-axis.\nThe strength of correlation between outcome pair is displayed at their intersection.\nEach correlation is color coded according to the legend at the top, ranging from dark blue (-1.0) to dark red (+1.0).\nEach correlation along the diagonal is dark red because it’s the correlation of an outcome with itself (i.e. =1.0)\nThe correlations above the diagonal are blank because they are the mirror image of the correlations below the diagonal.\nThe underlying correlation coefficients are calculated using formulas specific to the type of data (e.g. binary ordinal, or continuous).\n\nKey Conclusions:\n\nA positive correlation is expected between benefits and expected between risk. A negative correlation might appear between a benefit and risk. This would suggest that subject experiencing the benefit also experience the risk.\nAs expected, there is a high correlation between the primary and secondary efficacy outcomes. The team might decide to drop the secondary efficacy outcome if there is a concern with double counting.\nThere is also an explainable negative correlation between outcomes for quality-of-life and recurring AE. The medium positive correlation between recurring AE and primary efficacy is difficult to explain."
   }
 ]

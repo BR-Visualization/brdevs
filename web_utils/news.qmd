@@ -6,7 +6,7 @@ title: "News"
 
 \~Marcus Garvey
 
-### February 7, 2025 {style="color: black"}
+### February, 2025 {style="color: black"}
 
 #### **Goals Achieved:** {style="color: black"}
 
@@ -24,7 +24,7 @@ title: "News"
 
 ------------------------------------------------------------------------
 
-### January 24, 2025 {style="color: black"}
+### January, 2025 {style="color: black"}
 
 #### **Goals Achieved:** {style="color: black"}
 
