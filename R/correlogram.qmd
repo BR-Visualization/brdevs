@@ -2,6 +2,13 @@
 title: Correlogram
 ---
 
+```{r, include = FALSE}
+library(ggcorrplot)
+library(stringr)
+source("utils.R")
+load("../data/corr.rda")
+```
+
 ------------------------------------------------------------------------
 
 ```{r, include = FALSE}
@@ -45,9 +52,6 @@ title: Correlogram
 #' @examples
 #' create_correlogram(corr)
 #'
-library(ggcorrplot)
-library(stringr)
-source("utils.R")
 
 create_correlogram <- function(df,
                                diagonal = FALSE,
@@ -235,7 +239,6 @@ create_correlogram <- function(df,
 ## Standard Visualization
 
 ```{r, echo = FALSE, warning=FALSE}
-load("../data/corr.rda")
 create_correlogram(corr)
 ```
 

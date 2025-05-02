@@ -40,8 +40,8 @@ add mini-bio here
 ::: {.column width="30%"}
 <img src="images/lg_headshot.png" width="120px" height="120px" style="border-radius: 70%; object-fit: cover; object-position: 50% 50%; margin-left: 20px; margin-top: 0px; border: 3px solid #333; margin-bottom: 30px; display: block;" />
 <img src="images/chen_headshot.jpg" width="120px" height="120px" style="border-radius: 70%; object-fit: cover; object-position: 50% 50%; margin-left: 20px; margin-top: -15px; border: 3px solid #333; margin-bottom: 100px; display: block;" />
-<img src="images/mike_headshot.jpg" width="120px" height="120px" style="border-radius: 70%; object-fit: cover; object-position: 50% 24%; margin-left: 20px; margin-top: -15px; border: 3px solid #333; margin-bottom: 30px; display: block;" />
 <img src="images/glen_headshot.jpg" width="120px" height="120px" style="border-radius: 70%; object-fit: cover; object-position: 50% 24%; margin-left: 20px; margin-top: -15px; border: 3px solid #333; margin-bottom: 30px; display: block;" />
+<img src="images/mike_headshot.jpg" width="120px" height="120px" style="border-radius: 70%; object-fit: cover; object-position: 50% 24%; margin-left: 20px; margin-top: -15px; border: 3px solid #333; margin-bottom: 30px; display: block;" />
 <img src="images/abigail_headshot.jpg" width="120px" height="120px" style="border-radius: 70%; object-fit: cover; object-position: 50% 32%; margin-left: 20px; margin-top: -15px; border: 3px solid #333; margin-bottom: 30px; display: block;" />
 :::
 :::

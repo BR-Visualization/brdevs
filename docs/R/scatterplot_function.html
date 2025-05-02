@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Benefit Risk Decision Enhanced Visualizations - Value Tree</title>
+<title>Benefit Risk Decision Enhanced Visualizations - Scatterplot</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -92,15 +92,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-label": "Search"
   }
 }</script>
-<link href="../site_libs/htmltools-fill-0.5.8.1/fill.css" rel="stylesheet">
-<script src="../site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
-<script src="../site_libs/d3-3.3.8/d3.min.js"></script>
-<script src="../site_libs/dagre-0.4.0/dagre-d3.min.js"></script>
-<link href="../site_libs/mermaid-0.3.0/dist/mermaid.css" rel="stylesheet">
-<script src="../site_libs/mermaid-0.3.0/dist/mermaid.slim.min.js"></script>
-<link href="../site_libs/DiagrammeR-styles-0.2/styles.css" rel="stylesheet">
-<script src="../site_libs/chromatography-0.1/chromatography.js"></script>
-<script src="../site_libs/DiagrammeR-binding-1.0.11/DiagrammeR.js"></script>
 <style> /* Full-width sticky header */ .sticky-header { position: fixed; top: 0; left: 0; width: 100%; background-color: #333; color: #fff; text-align: center; padding: 0px 0; font-size: 0em; font-weight: bold; z-index: 1000; margin: 0; box-shadow: 0 0px 0px rgba(0, 0, 0, 0.2); } body { margin-top: 0px; /* Adjust based on header height */ } </style> </head><body class="nav-sidebar docked nav-fixed"><div class="sticky-header"> Benefit Risk Charts </div>
 
 
@@ -193,7 +184,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Value Tree</li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Scatterplot</li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
     </div>
@@ -219,7 +210,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Value Tree</h1>
+<h1 class="title">Scatterplot</h1>
 </div>
 
 
@@ -241,69 +232,30 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
 <div class="cell">
 <div class="cell-output-display">
-<div class="DiagrammeR html-widget html-fill-item" id="htmlwidget-3a88de058bb37f90b081" style="width:100%;height:464px;"></div>
-<script type="application/json" data-for="htmlwidget-3a88de058bb37f90b081">{"x":{"diagram":"graph LR;\n   A(<B>Benefit-Risk Balance<\/B>)-->B(<B>Benefits<\/B>)\n   B-->C(<B>Primary Efficacy<\/B>)\n   B-->D(<B>Secondary Efficacy<\/B>)\n   B-->E(<B>Quality of life<\/B>)\n   C-->F(<B>% Success<\/B>)\n   D-->G(<B>Mean change<\/B>)\n   E-->H(<B>Mean change<\/B>)\n   A-->I(<B>Risks<\/B>)\n   I-->J(<B>Recurring AE<\/B>)\n   I-->K(<B>Rare SAE<\/B>)\n   I-->L(<B>Liver Toxicity<\/B>)\n   J-->M(<B>Event rate<\/B>)\n   K-->N(<B>% Event<\/B>)\n   L-->O(<B>% Event<\/B>)\n   style A fill:#7ABD7E\n   style B fill:#7ABD7E\n   style I fill:#7ABD7E\n   style C fill:#FFE733\n   style D fill:#FFE733\n   style E fill:#FFE733\n   style J fill:#FFE733\n   style K fill:#FFE733\n   style L fill:#C6C6C6\n   style F fill: #FFAA1C\n   style G fill: #FFAA1C\n   style H fill: #FFAA1C\n   style M fill: #FFAA1C\n   style N fill: #FFAA1C\n   style O fill: #C6C6C6\n   "},"evals":[],"jsHooks":[]}</script>
+<p><img src="scatterplot_function_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 </div>
 <div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">value_tree</span>(</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">diagram =</span></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    <span class="st">"graph LR;</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="st">   A(&lt;B&gt;Benefit-Risk Balance&lt;/B&gt;)--&gt;B(&lt;B&gt;Benefits&lt;/B&gt;)</span></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="st">   B--&gt;C(&lt;B&gt;Primary Efficacy&lt;/B&gt;)</span></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="st">   B--&gt;D(&lt;B&gt;Secondary Efficacy&lt;/B&gt;)</span></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="st">   B--&gt;E(&lt;B&gt;Quality of life&lt;/B&gt;)</span></span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="st">   C--&gt;F(&lt;B&gt;% Success&lt;/B&gt;)</span></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="st">   D--&gt;G(&lt;B&gt;Mean change&lt;/B&gt;)</span></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="st">   E--&gt;H(&lt;B&gt;Mean change&lt;/B&gt;)</span></span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="st">   A--&gt;I(&lt;B&gt;Risks&lt;/B&gt;)</span></span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="st">   I--&gt;J(&lt;B&gt;Recurring AE&lt;/B&gt;)</span></span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="st">   I--&gt;K(&lt;B&gt;Rare SAE&lt;/B&gt;)</span></span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="st">   I--&gt;L(&lt;B&gt;Liver Toxicity&lt;/B&gt;)</span></span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="st">   J--&gt;M(&lt;B&gt;Event rate&lt;/B&gt;)</span></span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="st">   K--&gt;N(&lt;B&gt;% Event&lt;/B&gt;)</span></span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="st">   L--&gt;O(&lt;B&gt;% Event&lt;/B&gt;)</span></span>
-<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="st">   style A fill:#7ABD7E</span></span>
-<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="st">   style B fill:#7ABD7E</span></span>
-<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="st">   style I fill:#7ABD7E</span></span>
-<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="st">   style C fill:#FFE733</span></span>
-<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="st">   style D fill:#FFE733</span></span>
-<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="st">   style E fill:#FFE733</span></span>
-<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="st">   style J fill:#FFE733</span></span>
-<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a><span class="st">   style K fill:#FFE733</span></span>
-<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="st">   style L fill:#C6C6C6</span></span>
-<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a><span class="st">   style F fill: #FFAA1C</span></span>
-<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a><span class="st">   style G fill: #FFAA1C</span></span>
-<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a><span class="st">   style H fill: #FFAA1C</span></span>
-<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a><span class="st">   style M fill: #FFAA1C</span></span>
-<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a><span class="st">   style N fill: #FFAA1C</span></span>
-<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a><span class="st">   style O fill: #C6C6C6</span></span>
-<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a><span class="st">   "</span></span>
-<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">scatter_plot</span>(scatterplot, <span class="at">outcome =</span> <span class="fu">c</span>(<span class="st">"Benefit"</span>, <span class="st">"Risk"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </div>
 <div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
 <p><strong>How to read</strong></p>
 <ul>
-<li><p>A value tree is a diagram that includes all key benefits and risks identified by the stakeholder or decision-makers to be important to the decision, particular to the patient population considered.</p></li>
-<li><p>The tree has no quantitative values, but rather displays outcomes valued by decision makers.</p></li>
-<li><p>The benefits typically include primary and secondary clinical endpoints, and a Quality of Life measure. Occasionally it includes a measure of convenience and out-of-pocket expense.</p>
-<ul>
-<li>Benefits are statistically characterized at the right as means, mean change from baseline, proportions (ex.% Success), or rates.</li>
-</ul></li>
-<li><p>The risks are typically organ toxicities or adverse events of special interest and can be statistically characterized as proportions or rates (ex. incidence per 100 subjects or per 10,000 subject-years).</p></li>
-<li><p>The value tree can be used to facilitate team discussions about which outcomes to capture in a clinical study.</p></li>
-<li><p>Value trees can start with many branches that can be pruned or combined to form a smaller tree that best assess the tradeoffs between key benefits and key risks.</p></li>
-<li><p>If two outcomes are highly correlated, then only one should be used, so as to avoid double counting.</p></li>
-<li><p>The same outcome can be specified two different ways, either a clinical endpoint (ex. blood pressure) or a patient-focused outcome (ex. ability to climb stairs). The decision makers would need to decide which one to keep.</p></li>
+<li><p>Each point indicates the predictive incremental probabilities associated with experiencing a benefit and a risk. The probabilities are estimated using logistic regression models with demographic and baseline covariates, but separately for one benefit and one risk.</p></li>
+<li><p>The X-axis depicts the predicted incremental benefit.</p></li>
+<li><p>The Y-axis depicts the predicted incremental risk.</p></li>
+<li><p>The red triangle indicates the overall mean of predictive incremental probabilities associated with experiencing a benefit and a risk.</p></li>
+<li><p>The diagonal threshold depicts the benefit and risk having equal weight.</p></li>
+<li><p>As the slope increases, the benefit receives more weight than the risk, meaning subjects are willing to accept much more risk in exchange for more benefit.</p></li>
+<li><p>For subjects in the upper left area, the risk exceeds the benefit.</p></li>
+<li><p>For subjects in the lower right area, the benefit exceeds the risk.</p></li>
 </ul>
 <p><strong>Key Conclusions:</strong></p>
 <ul>
-<li><p>The size of this value tree was reduced by grouping frequently occurring adverse events into a single “recurring AE” outcome and grouping rare but serious adverse events into a single outcome.</p></li>
-<li><p>While also a rare and serious, liver toxicity was colored gray because it only has a potential association with treatments.</p></li>
-<li><p>Both primary and secondary efficacy clinical endpoints were included because they were not correlated. Quality of Life was included to capture what was important to the subjects.</p></li>
+<li>The scatter plot of predictive incremental probabilities illustrates that 98.6% of subjects have benefit-risk predictive incremental probabilities that fall within the acceptance region, defined as the region below the diagonal threshold. Besides displaying subject variability, it indicates which subjects are most likely to benefit from the investigational drug.</li>
 </ul>
 </div>
 </div>

@@ -18,12 +18,30 @@ website:
           text: "Home"
         - text: "Visualizations"
           menu:
+            - text: "Demographics (Pyramid Chart)"
+              href: R/pyramid_chart.qmd
+            - text: "Disease History (Line Chart)"
+              href: R/line_chart.qmd
+            - text: "Comorbidities (Grouped Bar Chart)"
+              href: R/grouped_barchart.qmd
             - text: "Value Tree"
               href: R/Value_Tree.qmd
+            - text: "Dot-Forest Plot"
+              href: R/dot_forest_plot.qmd
+            - text: "Trade-off Plot"
+              href: R/tradeoff_plot.qmd
             - text: "Correlogram"
               href: R/correlogram.qmd
+            - text: "Scatterplot"
+              href: R/scatterplot_function.qmd
+            - text: "Composite Outcome (Stacked Bar Chart)"
+              href: R/stacked_barchart.qmd
+            - text: "Cumulative Excess Plot"
+              href: R/cumulative_excess_functions.qmd
         - text: "News"
           href: news_1.qmd
+        - text: "Contributions"
+          href: CONTRIBUTING.qmd
         - text: "About Us"
           href: aboutus.qmd
 
@@ -64,7 +82,7 @@ format:
           Benefit Risk Charts
         </div>"
 
-    theme: flatly  # Use CSS to make the sidebar always visible and avoid floating behavior
+    theme: flatly
     toc: true
     toc-location: right
 

@@ -18,4 +18,4 @@ To advance structured Benefit-Risk Assessment (sBRA) by developing and promoting
 
 ### Contributing
 
-We encourage contributions and recommendations to Benefit Risk Decision Enhanced Visualizations. Please refer to the [Contributions guide](CONTRIBUTING.md) for more information on how you can contribute.
+We encourage contributions and recommendations to Benefit Risk Decision Enhanced Visualizations. Please refer to the [Contributions guide](CONTRIBUTING.qmd) for more information on how you can contribute.
