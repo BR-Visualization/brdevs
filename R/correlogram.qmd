@@ -52,7 +52,6 @@ load("../data/corr.rda")
 #' @examples
 #' create_correlogram(corr)
 #'
-
 create_correlogram <- function(df,
                                diagonal = FALSE,
                                method = "square",
