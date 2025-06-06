@@ -4,7 +4,7 @@ title: "About Us"
 
 ::: columns
 ::: {.column width="70%"}
-## Lovemore Gakava
+## Lovemore Gakava, Team Lead
 
 add mini-bio here
 
