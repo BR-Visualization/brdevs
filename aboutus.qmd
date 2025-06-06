@@ -22,7 +22,7 @@ add mini-bio here
 
 ## Abigail Mabe
 
-add mini-bio here
+**Abigail Mabe** is a recent graduate from the University of North Carolina at Chapel Hill. She has an undergraduate degree in Biology (BA) and Statistics (BS), and will continue her education for a MS in Biostatistics at UNC in the fall. Abigail started interning at UCB the summer of 2023 as a benefit-risk intern, and has returned the summers of 2024 and 2025, where she continues to assist in the visualization of benefit-risk assessment.
 
 ## Melvin Munsaka
 
@@ -42,6 +42,6 @@ add mini-bio here
 <img src="images/chen_headshot.jpg" width="120px" height="120px" style="border-radius: 70%; object-fit: cover; object-position: 50% 50%; margin-left: 20px; margin-top: -15px; border: 3px solid #333; margin-bottom: 100px; display: block;" />
 <img src="images/glen_headshot.jpg" width="120px" height="120px" style="border-radius: 70%; object-fit: cover; object-position: 50% 24%; margin-left: 20px; margin-top: -15px; border: 3px solid #333; margin-bottom: 30px; display: block;" />
 <img src="images/mike_headshot.jpg" width="120px" height="120px" style="border-radius: 70%; object-fit: cover; object-position: 50% 24%; margin-left: 20px; margin-top: -15px; border: 3px solid #333; margin-bottom: 30px; display: block;" />
-<img src="images/abigail_headshot.jpg" width="120px" height="120px" style="border-radius: 70%; object-fit: cover; object-position: 50% 32%; margin-left: 20px; margin-top: -15px; border: 3px solid #333; margin-bottom: 30px; display: block;" />
+<img src="images/abigail_headshot.png" width="120px" height="120px" style="border-radius: 70%; object-fit: cover; object-position: 50% 32%; margin-left: 20px; margin-top: -15px; border: 3px solid #333; margin-bottom: 100px; display: block;" />
 :::
 :::

@@ -16,6 +16,42 @@ If you would like to stay updated with details of our package development, pleas
 
 </div>
 
+### May, 2025 {style="color: black"}
+
+#### **Goals Achieved:** {style="color: black"}
+
+-   First drafts created for the enhanced cumulative excess plot
+
+-   First drafts created for the enhanced scatter plot
+
+-   Continued discussion of proposed manuscript and revision of enhancements
+
+#### **Action Items:** {style="color: black"}
+
+-   Continue to enhance static chart visualizations
+
+-   Discuss updates with the large team, and gather preliminary feedback
+
+------------------------------------------------------------------------
+
+### April, 2025 {style="color: black"}
+
+#### **Goals Achieved:** {style="color: black"}
+
+-   First drafts created for the enhanced dot-forest plot
+
+-   Finalized first draft of static charts site
+
+-   Discussed strategy of enhancing plots, progression of the manuscript, and future community engagement
+
+#### **Action Items:** {style="color: black"}
+
+-   Continue revising and enhancing plots from static charts site
+
+-   Plan large team meeting to continue discussions
+
+------------------------------------------------------------------------
+
 ### March, 2025 {style="color: black"}
 
 #### **Goals Achieved:** {style="color: black"}
