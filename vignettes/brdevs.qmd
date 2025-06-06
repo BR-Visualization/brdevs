@@ -1,0 +1,18 @@
+---
+title: "brdevs"
+format: html
+vignette:
+  engine: knitr
+  id: brdevs
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r}
+library(brdevs)
+```
