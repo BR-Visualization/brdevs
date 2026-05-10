@@ -5,3 +5,5 @@
 
 /.quarto/
 inst/doc
+
+**/*.quarto_ipynb
